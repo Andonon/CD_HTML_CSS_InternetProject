@@ -1,0 +1,20 @@
+/***************************************************************/
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.   */
+/* Coding Dojo HTML CSS modernize project for yellowbelt exam  */
+/***************************************************************/
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com. 
+Coding Dojo HTML CSS modernize project for yellowbelt exam*/
+
+/***************************************************/
+/*               CSS reset settings                */
+/***************************************************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/***************************************************/
+/*               Header                            */
+/***************************************************/
