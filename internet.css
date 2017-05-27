@@ -42,7 +42,7 @@ header h1{
 header h1 span{
     color: #2b6ba2;
 }
-header h2{
+header #thewwwbar h2{
     color: white;
     position: relative;
     top: 15px;
@@ -245,21 +245,43 @@ header h2{
 }
 #headergroove{
     border-bottom: 1px groove lightgray;
-    Width: 700px; 
+    Width: 740px; 
     position: relative;
     top: -50px;
-    left: 20px;
 }
 
 /***************************************************/
-/*     Right Side Article Section                */
+/*     Right Side Clients and Servers Article      */
 /***************************************************/
 
 #clientsandservers{
-
+    position: relative;
+    top: -40px;
 }
+#clientsandservers p{
+    font-size: 14px;    
+}
+#clientsandservers ul, ol{
+    position: relative;
+    left: 50px;
+    font-size: 14px;
+    margin-right: 80px;
+} 
+#clientsandservers li{
+    padding: 5px;
+}
+#clientsandservers h2{
+    font-weight: bolder;
+}
+.clientserverimage{
+    height: 100px;
+    position: relative; 
+    left: 250px;
+}
+
 .blueheadertext{
     color: #3a75a8;
+    padding: 5px;
 }
 .boldtext{
     font-weight: bold;
@@ -267,4 +289,30 @@ header h2{
 .bluetext{
     color: #29a8bc;
 
+}
+
+/***************************************************/
+/*     Right Side The Big 3 Article                */
+/***************************************************/
+
+#thebig3{
+    border-top: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+    height: 170px;
+    box-shadow: 3px -3px 3px lightgrey;
+    padding: 10px;
+}
+#thebig3 header, #thebig3 p {
+    position: relative;
+    left: 190px;
+    top: -140px;
+    padding: 5px;
+    margin-right: 200px;
+}
+.big3image{
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 10px;  
 }
