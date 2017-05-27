@@ -78,7 +78,13 @@ header #thewwwbar h2{
     vertical-align: top;
     position: relative;
  }
-
+ .breadcrumbheader{
+     color: #497fac;
+     position: relative;
+     left: 40px;
+     top: -25px;
+     font-size: 20px;
+ }
 /***************************************************/
 /*          Whats an Internet?  Section            */
 /***************************************************/
@@ -179,12 +185,8 @@ header #thewwwbar h2{
     top: -150px;
     left: 15px;
 }
-#learnmoretext{
-    color: white;
-    position: relative;
-    top: -177px;
-    left: 45px;
-    z-index: 1;
+.learnmoretext{
+    padding-right: 20px;
 }
 #learnmorearrows{
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0.05, #78dae9), color-stop(.1, #ffffff) );
@@ -193,8 +195,8 @@ header #thewwwbar h2{
     -webkit-background-clip: text;
     background-clip: text;
     position: relative;
-    left: 130px;
-    top: -192px;
+    left: 125px;
+    top: -172px;
     z-index: 1;
     font-weight: bolder;
     font-size: 12px;
