@@ -1,9 +1,8 @@
 /***************************************************************/
 /* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com.   */
-/* Coding Dojo HTML CSS modernize project for yellowbelt exam  */
+/* Coding Dojo HTML CSS Training                               */
 /***************************************************************/
-/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com. 
-Coding Dojo HTML CSS modernize project for yellowbelt exam*/
+
 
 /***************************************************/
 /*               CSS reset settings                */
@@ -12,9 +11,173 @@ Coding Dojo HTML CSS modernize project for yellowbelt exam*/
 *{
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /***************************************************/
 /*               Header                            */
 /***************************************************/
+
+
+#theinternetbar{
+    height: 80px;
+    width: 970px;
+}
+#thewwwbar{
+    height: 60px;
+    width: 970px;
+    background: linear-gradient(#24669f,#5082ab,#24669f);
+}
+header img{
+        left: 5px;
+        position: absolute;
+        z-index: 1;
+}
+header h1{
+    position: relative;
+    left: 120px;
+    top: 40px;
+    font-weight: lighter;
+    font-size: 35px;
+
+}
+header h1 span{
+    color: #2b6ba2;
+}
+header h2{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+/***************************************************/
+/*          MAIN Section                           */
+/***************************************************/
+
+#main{
+    width: 970px;
+    height: 700px;
+    background: linear-gradient(#e3e3e3, white);
+}
+
+/***************************************************/
+/*          Whats an Internet?  Section            */
+/***************************************************/
+
+#whatsaninternet{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+#whatsaninternet h3{
+    color: black;
+    font-size: 14px; 
+    font-weight: bolder;
+    line-height: 30px;
+    position: relative;
+    left: -23px;
+}
+#whatsaninternet h3 span{
+    color: red;
+}
+#whatsaninternet p{
+    font-weight: bold;
+    font-size: 12px;
+}
+#whatsaninternet p span{
+    color: #306a9c;
+}
+#watchavideobutton input{
+    color: white;
+    background: linear-gradient(#6096c1, #306a9c);
+    height: 30px;
+    width: 180px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px grey;
+    position: relative;
+    top: 5px;
+}
+#moreresourcesbutton input{
+    color: white;
+    background: linear-gradient(#edb86d, #ef7300);
+    height: 30px;
+    width: 180px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px grey;
+    position: relative;
+    top: 10px;
+}
+#horizontalgroove{
+    position: relative;
+    top: 30px;
+    width: 180px;
+    border-top: groove 2px silver;
+}
+
+/***************************************************/
+/*         Dojo Advertisement  section             */
+/***************************************************/
+
+#dojoad{ 
+    width: 200px;
+}
+#dojoad header{
+    width: 140px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+#dojoad header,h3{
+    color: white;
+    z-index: 1;
+    font-weight: lighter;
+    text-align: center;    
+}
+#dojoadimage{
+    width: 180px;
+    position: relative;
+    left: 5px;
+    top: 15px;
+}
+#dojoninjaimage{
+    width: 80px;
+    position: relative;
+    left: 50px;
+    top: -175px;    
+}
+#dojoad input{
+    height: 30px;
+    width: 160px;
+    color: white;
+    font-weight: bold;
+    background: radial-gradient(#79d0df, #02b6d3);
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+    top: -150px;
+    left: 15px;
+}
+#learnmoretext{
+    color: white;
+    position: relative;
+    top: -177px;
+    left: 45px;
+    z-index: 1;
+}
+#learnmorearrows{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.05, #78dae9), color-stop(.1, #ffffff) );
+    background-image: gradient( linear, left top, right top, color-stop(0.05, #78dae9), color-stop(.1, #ffffff) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    left: 90px;
+    top: -15px;
+    font-weight: bolder;
+    font-size: 12px;
+}
