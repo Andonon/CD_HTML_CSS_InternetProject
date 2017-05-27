@@ -3,7 +3,6 @@
 /* Coding Dojo HTML CSS Training                               */
 /***************************************************************/
 
-
 /***************************************************/
 /*               CSS reset settings                */
 /***************************************************/
@@ -18,7 +17,6 @@
 /***************************************************/
 /*               Header                            */
 /***************************************************/
-
 
 #theinternetbar{
     height: 80px;
@@ -40,7 +38,6 @@ header h1{
     top: 40px;
     font-weight: lighter;
     font-size: 35px;
-
 }
 header h1 span{
     color: #2b6ba2;
@@ -61,25 +58,26 @@ header h2{
 #main{
     width: 970px;
     height: 700px;
-    background: linear-gradient(#e3e3e3, white);
     display: inline-block;
 }
-
+#pagebackground{
+    Height: 200px;
+    width: 970px;
+    background: linear-gradient(#e3e3e3, white); 
+    position: absolute;
+}
 #leftsidemain{
     Width: 220px;
     height: 700px;
     display: inline-block;
-    background-color: red;
 }
-
 #rightsidemain{
     width: 750px;
     height: 700px;
     display: inline-block;
     vertical-align: top;
     position: relative;
-    background-color: yellow;
-}
+ }
 
 /***************************************************/
 /*          Whats an Internet?  Section            */
@@ -167,7 +165,7 @@ header h2{
     width: 80px;
     position: relative;
     left: 50px;
-    top: -175px;    
+    top: -160px;    
 }
 #dojoad input{
     height: 30px;
@@ -254,6 +252,19 @@ header h2{
 }
 
 /***************************************************/
-/*     Right Side Article 1 Section                */
+/*     Right Side Article Section                */
 /***************************************************/
 
+#clientsandservers{
+
+}
+.blueheadertext{
+    color: #3a75a8;
+}
+.boldtext{
+    font-weight: bold;
+}
+.bluetext{
+    color: #29a8bc;
+
+}
